@@ -84,7 +84,7 @@ span {
 
 .hills {
     position: relative;
-    top: 6.7rem;
+    top: 10.5rem;
     width: 100%;
     z-index: 0;
 }
@@ -121,7 +121,21 @@ span {
 
 
 /* MEDIA QUERIES */
-
-
+@media(max-width: 375px) {
+    .advice {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .social__icons {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+    .hills {
+        position: relative;
+        top: 3.1rem;
+    }
+}
 /* MEDIA QUERIES END */
 
